@@ -13,7 +13,7 @@ const app = express();
 
 // VARIABLES
 const PORT = process.env.PORT || 3001;
-const MONGO_LINK = "mongodb+srv://indira1vik:Indira@113@campushive.rtixvc0.mongodb.net/college?retryWrites=true&w=majority";
+const MONGO_LINK = "mongodb+srv://indira1vik:Indira113@campushive.rtixvc0.mongodb.net/college?retryWrites=true&w=majority";
 
 // MONGOOSE
 mongoose.connect(MONGO_LINK);
